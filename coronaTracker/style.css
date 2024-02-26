@@ -1,0 +1,31 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mianheading h1 {
+    font-weight: 700;
+}
+
+.trows th {
+    font-size: larger;
+    font-weight: 800;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: #ffffff;
+
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #00ffee3b;
+}
+
+
+/* .hemant td div:nth-child(even){
+    background-color: red;
+}
+.hemant td div:nth-child(odd){
+    background-color: blue;
+} */
