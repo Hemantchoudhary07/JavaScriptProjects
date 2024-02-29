@@ -13,6 +13,7 @@ body {
 .mainlogo {
     height: 70px;
     width: 150px;
+    cursor: pointer;
 }
 .navbar-collapse {
     flex-grow: inherit;
@@ -57,22 +58,46 @@ body {
     flex-direction: row;
 }
 
-.heroSection{
-    background-color: rgb(251, 248, 248);
-}
+/* .heroSection{
+     background-color: rgb(251, 248, 248); 
+} */
 .heroSectionheading h1{
     font-size: 80px;
     font-weight: 600;
 }
+.heroBackgroundImage{
+    height: 610px;
+    /* width: 100%; */
+    background-image: url('images/Group-189-1.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border-radius: 25px;
+}
+.heroBackgroundImage img{
+    width: 215px;
+    background-color: rgb(240 241 243 / 43%);
+}
+.herosectionimages img{
+    width: 190px;
+    background-color: rgb(240 241 243 / 43%);
+}
 
 
 
 
 
 
-
-
-
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.599);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(232, 57, 57);
+    border-radius: 10px;
+}
 
 
 
