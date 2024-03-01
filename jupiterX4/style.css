@@ -95,7 +95,8 @@ body {
 .herosectionimages img {
     width: 190px;
     margin-top: 172PX;
-    /* background-color: rgb(240 241 243 / 43%); */
+    background-color: rgba(255, 0, 0, 0.0);
+
 }
 
 
