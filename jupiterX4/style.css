@@ -54,14 +54,13 @@ body {
 
 .navbarbutton {
     padding: 0px 32px;
-    background: linear-gradient(to right, #f78da7 50%, blue 50%);
+    background: linear-gradient(270deg, #FC4CDA 0%, #3613FA 100%);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     border: none;
 }
 
 .Featuresdropdownimages img {
-    height: 100%;
-    width: 280px;
+    width: 315px;
 }
 
 .dropdownmenuimage {
@@ -69,9 +68,15 @@ body {
     flex-direction: row;
 }
 
-.heroSection{
-     background-color: rgb(251, 248, 248); 
+.dropdowntext{
+    margin-top: 52px;
+    display: grid;
 }
+
+.heroSection {
+    background-color: rgb(251, 248, 248);
+}
+
 .heroSectionheading h1 {
     font-size: 80px;
     font-weight: 600;
@@ -140,7 +145,7 @@ body {
     box-shadow: 0px 11px 20px 0px rgba(53.999999999999964, 18.99999999999999, 250, 0.25);
 }
 
-.landingpage h1{
+.landingpage h1 {
     font-size: 75px;
     font-weight: 900;
     text-align: center;
@@ -148,76 +153,87 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    background-image: linear-gradient(270deg, #FC4CDA 0%, #3613FA 100%); 
+    background-image: linear-gradient(270deg, #FC4CDA 0%, #3613FA 100%);
 
 
 }
-.Jupiterlandingpage{
+
+.Jupiterlandingpage {
     height: 610px;
     background-image: url('images/image-831.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.Jupiterlandingpage p{
+
+.Jupiterlandingpage p {
     font-size: 40px;
     font-weight: 700;
 }
-.Jupiterlandingpageimg{
-    height: 550px;
+
+.Jupiterlandingpageimg {
+    height: 500px;
     background-image: url('images/landing-page-showcase-background-1536x1027.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.Jupiterlandingpageimg video{
+
+.Jupiterlandingpageimg video {
     /* height: 500px; */
-    width: 500px;
+    width: 600px;
     cursor: pointer;
 
 }
 
 
-.shopbuilder video{
+.shopbuilder video {
     margin-top: 450px;
-    width: 500px;
+    width: 700px;
     cursor: pointer;
 
 }
-.shopbuilder h1{
+
+.shopbuilder h1 {
     font-size: 30px;
     font-weight: 800;
     margin-top: 450px;
     color: #FF96AA;
 }
-.shopbuilder h2{
+
+.shopbuilder h2 {
     margin-top: 21px;
-    font-size: 60px;
+    font-size: 57px;
     font-weight: 900;
 }
-.shopbuilder p{
+
+.shopbuilder p {
+    margin-top: 27px;
     font-size: 23px;
     color: #5b5757;
 }
 
-.headerbuilder video{
+.headerbuilder video {
     margin-top: 65px;
-    width: 500px;
+    width: 700px;
     cursor: pointer;
 
 }
-.headerbuilder h1{
+
+.headerbuilder h1 {
     font-size: 30px;
     font-weight: 800;
     margin-top: 65px;
     color: #FF96AA;
 }
-.headerbuilder h2{
+
+.headerbuilder h2 {
     margin-top: 30px;
     font-size: 55px;
     font-weight: 900;
 }
-.headerbuilder p{
+
+.headerbuilder p {
     margin-top: 30px;
     font-size: 23px;
     color: #5b5757;
