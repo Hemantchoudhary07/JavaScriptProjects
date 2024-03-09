@@ -71,6 +71,22 @@ body {
 .dropdowntext{
     margin-top: 52px;
     display: grid;
+    cursor: pointer;
+}
+
+.dropdownshop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.dropdownshopitem{
+    text-align: center;
+    border: 10px;
+    color: white;
+    background-color: red;
+    height: 70px;
+    width: 250px;
 }
 
 .heroSection {
