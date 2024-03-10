@@ -77,7 +77,8 @@ body {
 .dropdownshop{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .dropdownshopitem{
@@ -88,7 +89,12 @@ body {
     height: 70px;
     width: 250px;
 }
-
+.dropdownshopitem img{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border: 0;
+}
 .heroSection {
     background-color: rgb(251, 248, 248);
 }
